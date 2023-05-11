@@ -192,6 +192,20 @@
     animation: loading 2s linear infinite
 }
 
+.wt-close {
+    position: absolute;
+    top: -3px;
+    right: 5px;
+    padding: 0px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #000;
+    background: #fff;
+    border-radius: 0 0 0 5px;
+    transition: all 1s ease;
+    border: 0;
+}
+
 @keyframes loading {
     from {
         left: -200px;
